@@ -16,7 +16,7 @@ def phase_embedding_layer(input_shape, input_dim, embedding_dim = 1,trainable = 
                             embedding_dim,
                             embeddings_initializer=RandomUniform(minval=0, maxval=2*math.pi),
                             input_length=input_shape, trainable = trainable,
-                            embeddings_regularizer= regularizers.l2(l2_reg))
+                            embeddings_regularizer= regularizers.l2(l2_reg)) #随机均匀初始化
     return embedding_layer
 
 
