@@ -13,7 +13,7 @@ from tensorflow import set_random_seed
 import tensorflow as tf
 import os
 import random
-from models import match as models   
+from models import match as models   #匹配 
 from tools.evaluation import matching_score, write_to_file
 
 def run(params,reader):
